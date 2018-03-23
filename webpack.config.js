@@ -3,6 +3,8 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import LiveReloadPlugin from 'webpack-livereload-plugin'
 
 export default  {
+  mode: 'development',
+  devtool: 'source-map',
   entry: './client/index.js',
   output: {
     path: '/',
